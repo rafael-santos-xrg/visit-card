@@ -1,6 +1,6 @@
 # Cartão de Visitas 🎴
 
-### Portifólio virtual e interativo
+### Portfólio virtual e interativo
 
 ## 🎲🎲🎲 Etapa 1 (Dados) 🎲🎲🎲
 Dispor de uma div contendo:
