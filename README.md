@@ -5,10 +5,11 @@
 ## 🎲🎲🎲 Etapa 1 (Dados) 🎲🎲🎲
 Dispor de uma div contendo:
 
-- [ ] Nome <br>
-- [ ] Foto <br>
-- [ ] Bio <br>
-- [ ] Medias Socias <br>
+- [x] Nome <br>
+- [x] Foto <br>
+- [x] Bio <br>
+- [x] Medias Socias <br>
+- [ ] Estilização CSS <br>
 
 Obs:  Informações buscadas diretamente do Github;<br>
       Botão de midias socias interativos;
