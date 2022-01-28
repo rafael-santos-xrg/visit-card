@@ -1,7 +1,6 @@
 const socialName = {
   github: 'rafael-santos-xrg',
   twitter: 'rfael_sntos',
-  rocketseat: 'me/victor-rafael-miranda-dos-santos-07148',
   linkedin: 'in/victor-rafael-xrg'
 }
 
@@ -14,3 +13,17 @@ function changeSocialLinks () {
 }
 
 changeSocialLinks ()
+
+function getGithubInfos (){
+  const url = `https://api.github.com/users/${socialName.github}`
+
+  fetch(url)
+  .then(response => response.json())
+  .then(data => {
+    profilePhoto.src = data.avatar_url
+    githubUserName.textContent = data.name
+    siteRocketseat.href = data.blog
+  })
+}
+
+getGithubInfos()
