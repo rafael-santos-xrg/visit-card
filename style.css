@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-image: linear-gradient(#008500, #001a00);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  position: absolute;
+  background-color: #202124;
+  text-align:center;
+  height: 70%;
+  width: 80%;
+}
+
+#avatar {
+  position: relative;
+  margin: auto;
+}
+
+#profilePhoto {
+  border-radius: 100%;
+  width: 15rem;
+  padding: 1rem;
+}
+
+#githubUserName {
+  padding: 2rem;
+}
+
+#socialLinks {
+  padding: 0%;
+  position: relative;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
