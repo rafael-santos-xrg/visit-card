@@ -27,3 +27,5 @@ Na expanção inserir:
 - [ ] Linkar na aba interativa os projetos salvos no Github;<br>
 - [ ] Responsividade para todas as plataformas e direcionamento de tela;<br>
 - [ ] Criatividade
+
+Veja como o está o progresso do projeto aqui 👉🏾 https://rafael-santos-xrg.github.io/visit-card/
