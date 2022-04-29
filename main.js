@@ -6,7 +6,7 @@ const socialName = {
 
 function changeSocialLinks() {
   for (let li of socialLinks.children) {
-    const social = li.getAttribute('class')
+    const social = li.getAttribute('id')
 
     li.children[0].href = `https://${social}.com/${socialName[social]}`
   }
@@ -29,20 +29,19 @@ function getGithubInfos() {
 getGithubInfos()
 
 
-function putIcons(liID, iN, altTx, iI) {
+function putIcons(liID, iN, altTx) {
   let id = `#${liID}`
   let path = `images/icon${iN}.png`
   let alt = altTx
-  let newId = iI
   const img = document.createElement("img")
   const target = document.querySelector(id)
   img.src = path
   img.alt = alt
-  img.id = newId
+  img.classList.add("icon")
   target.innerHTML = ""
   target.insertAdjacentElement("beforeend", img)
 }
-putIcons("githubLink", "1", "Ícone Github", "githubIcon")
-putIcons("twitterLink", "2", "Ícone Twitter", "twitterIcon")
-putIcons("siteRocketseat", "3", "Ícone Rocktseat", "rocketseatIcon")
-putIcons("linkedinLink", "4", "Ícone Linkedin", "linkedinIcon")
+putIcons("githubLink", "1", "Ícone Github")
+putIcons("twitterLink", "2", "Ícone Twitter")
+putIcons("siteRocketseat", "3", "Ícone Rocktseat")
+putIcons("linkedinLink", "4", "Ícone Linkedin")

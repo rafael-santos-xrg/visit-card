@@ -9,7 +9,7 @@ Dispor de uma div contendo:
 - [x] Foto <br>
 - [x] Bio <br>
 - [x] Medias Socias <br>
-- [ ] Estilização CSS <br>
+- [x] Estilização CSS <br>
 
 Obs:  Informações buscadas diretamente do Github;<br>
       Botão de midias socias interativos;
@@ -20,7 +20,7 @@ Obs:  Informações buscadas diretamente do Github;<br>
 
 Na expanção inserir: 
 
-- [ ] Resumo profissional, metas, objetivos, foco;
+- [ ] Resumo profissional, objetivos;
 
 ## 🔥🔥🔥 Desafios 🔥🔥🔥
 
