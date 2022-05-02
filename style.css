@@ -18,15 +18,14 @@ main {
 }
 
 .content {
-  border-radius: 5vh;
   position: absolute;
+  border-radius: 5vh;
   background-color: #202124;
   text-align:center;
   height: 70vh;
   width: 75vw;
-  padding: 0%;
-  margin: 0%;
 }
+
 
 #profilePhoto {
   border-radius: 100%;
@@ -47,13 +46,14 @@ main {
 }
 
 #socialLinks {
+  position: relative;
   list-style: none;
   display: flex;
+  margin: 3vh;
   gap: 7vw;
   justify-content: center;
-  padding: 1vmax;
-  margin: 2rem;
- 
+  align-items: center;
+  padding: 0;
  }
 
 .icon {
@@ -63,4 +63,31 @@ main {
 
 .icon:hover {
   height: 12vh;
+}
+
+#slideArrowDiv{
+  display: flex;
+  position: absolute;
+  top: 50%;
+  width: 75vw;
+  height: auto;
+}
+
+.slideArrow{
+  height: 12vh;
+  transform: translateY(-50%);
+}
+
+#leftArrow{
+
+}
+
+#rightArrow{
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%) rotateY(180deg);
+}
+
+#testeSpan{
+  
 }

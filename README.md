@@ -28,4 +28,4 @@ Na expanção inserir:
 - [ ] Responsividade para todas as plataformas e direcionamento de tela;<br>
 - [ ] Criatividade
 
-Veja como o está o progresso do projeto aqui 👉🏾 https://rafael-santos-xrg.github.io/visit-card/
+Veja como está o progresso do projeto aqui 👉🏾 https://rafael-santos-xrg.github.io/visit-card/
